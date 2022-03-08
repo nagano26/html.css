@@ -1,0 +1,362 @@
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+.Header{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    position: absolute;
+    text-align:center;
+}
+
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px 0 36px;
+    max-width: 100%;
+    position: relative;
+}
+
+.HeaderLogo{
+    transition: opacity 0.2s;
+}
+
+.HeaderLogo__image--pc {
+    display: block;
+    height: 20px;
+    width: auto;
+}
+
+.HeaderLogo__image--sp {
+    display: none;
+    height: 16px;
+    width: auto;
+}
+
+.HeaderLogo:hover{
+    opacity: 0.8;
+}
+
+.HeaderNavHamburger{
+    display: none;
+}
+
+
+.HeaderNavHamburger{
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+}
+
+
+.HeaderNavList{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderNavListItem{
+    margin-right: 45px;
+}
+
+.HeaderNavListItem:hover{
+    opacity: 0.8;
+}
+
+.HeaderNavListItem__link{
+    display: block;
+}
+
+.HeaderNavListItem__link>span{
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+.HeaderNavListItem__link>span:first-child {
+    font-family: 'Lato', sans-serif;
+}
+
+.HeaderNavListItem__link>span:last-child{
+    font-size: 10px;
+}
+
+.HeaderNavListItem__link>span {
+    display: block;
+    font-weight: 700;
+    text-align: center;
+}
+
+.HeaderNavListItem__button{
+    align-items: center;
+    background-color: #F79214;
+    border: none;
+    border-radius: 36px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100;
+    padding :0 20px;
+}
+
+
+.HeaderNavListItem:last-of-type {
+    margin-right: 0;
+}
+
+/*a:-webkit-any-link{*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.li{*/
+/*    display: list-item;*/
+/*    text-align: match-parent;*/
+/*}*/
+
+/*.ul{*/
+/*    list-style: none;*/
+/*    list-style-position: initial;*/
+/*    list-style-image: initial;*/
+/*    list-style-type: none;*/
+/*}*/
+
+main{
+    display: block;
+}
+
+.FirstView{
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+
+.FirstView__main-image--sp {
+    display: none;
+}
+
+.FirstView__main-image{
+    width: 100%;
+}
+
+
+.FirstView__container{
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.FirstViewContent{
+    margin-bottom: 70px;
+    width: fit-content;
+}
+
+.FirstViewContent__title{
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.FirstViewContent__images{
+    margin-bottom: 25px;
+}
+
+.FirstViewContent__images img{
+    margin-right: 8px;
+}
+
+.FirstViewContent__images img:nth-of-type(2){
+    width: 40%;
+}
+
+.FirstViewContent__images img:last-of-typw{
+    margin-right: 0;
+}
+
+.FirstViewContent__buttons {
+    display: flex;
+}
+
+.FirstViewContent__buttons a {
+    align-items: center;
+    background-color: #F79214;
+    border: none;
+    border-radius: 38px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    height: 64px;
+}
+
+.FirstViewContent__buttons a:first-of-type{
+    margin-right: 15px;
+    width: 306px;
+    transition: opacity 0.2s;
+}
+
+.FirstViewContent__buttons a:last-of-type{
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    color: #000;
+    width: 176px;
+}
+
+.FirstViewContent__buttons a:hover{
+    opacity: 0.8;
+}
+
+.FirstViewCaption {
+    color: #A2A2A4;
+    font-size: 12px;
+}
+
+.FirstViewCaption a{
+    color: #A2A2A4;
+}
+
+
+.AboutWrapper {
+    background-color: #F79214;
+    padding:45px 0;
+}
+
+.About {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.About__title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+    width: 53%;
+}
+
+.About__title h2{
+    color:white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.About__title h2>span{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.About__title P{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.About__button{
+    width: 250px;
+}
+
+.About__button a{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700;
+    height: 64px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    color: #F79214 !important;
+    background-color: #fff;
+    transition:opacity 0.2s;
+    border: none;
+    border-radius: 38px;
+    align-items: center;
+}
+
+.About__button a:hover{
+    opacity: 0.8;
+}
+
+.About__button a span:first-child {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.About__button a span:last-child{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
