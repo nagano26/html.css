@@ -14,6 +14,12 @@
 }
 }
 
+@media screen and (min-width: 768px){
+.HeaderLogo {
+    transition: opacity 0.2s;
+}
+}
+
 @media screen and (max-width: 767px){
 .HeaderLogo__image--pc {
     display: none;
@@ -111,6 +117,13 @@ main {
 }
 
 @media screen and (max-width: 767px){
+.FirstViewContent__buttons a {
+    font-size: 14px;
+    width: 100% !important;
+}
+}
+
+@media screen and (max-width: 767px){
 .FirstViewContent__buttons a:last-of-type {
     height: 45px;
 }
@@ -130,9 +143,24 @@ main {
 }
 
 @media screen and (max-width: 767px){
+.About__title {
+    margin-bottom: 40px;
+}
+}
+
+@media screen and (max-width: 767px){
 .About__title h2 {
     font-size: 30px !important;
     text-align: center;
+}
+}
+
+@media screen and (max-width: 767px){
+.About__title h2 {
+    font-size: 30px !important;
+    text-align: center;
+    line-height: 1.2;
+    width: 100%;
 }
 }
 
@@ -142,14 +170,29 @@ main {
 }
 }
 
+@media screen and (max-width: 767px){
+.About__title h2 span {
+    letter-spacing: 1px;
+}
+}
 
+@media screen and (max-width: 767px){
+.About__title br {
+    display: block;
+}
+}
 
-
+@media screen and (max-width: 767px){
+.About__title p {
+    font-size: 16px;
+    line-height: 21px;
+}
+}
 
 
 /*タブレット画面サイズ*/
 @media screen and (max-width: 1080px){
-.Heade {
+.Header {
     background-color: #fff;
     z-index: 10;
 }
@@ -233,6 +276,15 @@ main {
 }
 
 @media screen and (max-width: 1080px){
+.HeaderNavListItem__link>span:last-child {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #F79214;
+    letter-spacing: 2px;
+}
+}
+
+@media screen and (max-width: 1080px){
 .HeaderNavListItem:last-of-type {
     margin-top: 20px;
 }
@@ -247,6 +299,11 @@ main {
 }
 }
 
+@media screen and (max-width: 1080px){
+main {
+    padding-top: 60px;
+}
+}
 
 @media screen and (max-width: 1024px){
 .About {
@@ -258,6 +315,12 @@ main {
 .About__title {
     margin-bottom: 0;
     width: 100%;
+}
+}
+
+@media screen and (max-width: 1024px){
+.About__button {
+    margin-top: 40px;
 }
 }
 
